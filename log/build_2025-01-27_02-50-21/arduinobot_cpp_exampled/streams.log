@@ -1,0 +1,20 @@
+[0.089s] Invoking command in '/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled -- -j1 -l1
+[0.304s] Invoked command in '/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled -- -j1 -l1
+[0.367s] Invoking command in '/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled
+[0.397s] -- Install configuration: ""
+[0.402s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_exampled
+[0.402s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_exampled
+[0.402s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/arduinobot_cpp_exampled/environment/ament_prefix_path.sh
+[0.408s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/arduinobot_cpp_exampled/environment/ament_prefix_path.dsv
+[0.408s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/arduinobot_cpp_exampled/environment/path.sh
+[0.408s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/arduinobot_cpp_exampled/environment/path.dsv
+[0.409s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/arduinobot_cpp_exampled/local_setup.bash
+[0.409s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/arduinobot_cpp_exampled/local_setup.sh
+[0.416s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/arduinobot_cpp_exampled/local_setup.zsh
+[0.416s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/arduinobot_cpp_exampled/local_setup.dsv
+[0.416s] -- Installing: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/arduinobot_cpp_exampled/package.dsv
+[0.417s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/ament_index/resource_index/packages/arduinobot_cpp_exampled
+[0.417s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/arduinobot_cpp_exampled/cmake/arduinobot_cpp_exampledConfig.cmake
+[0.417s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/arduinobot_cpp_exampled/cmake/arduinobot_cpp_exampledConfig-version.cmake
+[0.426s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_cpp_exampled/share/arduinobot_cpp_exampled/package.xml
+[0.434s] Invoked command in '/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled
