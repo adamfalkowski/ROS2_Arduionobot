@@ -28,9 +28,16 @@ def generate_launch_description():
         )
     
     ros_distro = os.environ["ROS_DISTRO"]
+    is_ignition = "True" if ros_distro == "humble" else "False"
 
-    robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")]),
-                                       value_type=str)
+    robot_description = ParameterValue(Command([
+            "xacro ",
+            LaunchConfiguration("model"),
+            " is_ignition:=",
+            is_ignition
+        ]),
+        value_type=str
+    )
 
     robot_state_publisher_node = Node(
         package="robot_state_publisher",
@@ -60,7 +67,7 @@ def generate_launch_description():
         package="ros_gz_bridge",
         executable="parameter_bridge",
         arguments=[
-            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
+            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock"
         ]
     )
 

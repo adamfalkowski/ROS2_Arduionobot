@@ -1,0 +1,44 @@
+[0.666s] Invoking command in '/home/administrator/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/arduinobot_ws/build/arduinobot_description -- -j4 -l4
+[4.033s] Invoked command in '/home/administrator/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/administrator/arduinobot_ws/build/arduinobot_description -- -j4 -l4
+[4.087s] Invoking command in '/home/administrator/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/arduinobot_ws/build/arduinobot_description
+[4.158s] -- Install configuration: ""
+[4.159s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes
+[4.159s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
+[4.159s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[4.160s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[4.160s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[4.160s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[4.160s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[4.161s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[4.161s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[4.170s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[4.171s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[4.171s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[4.173s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[4.176s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[4.176s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[4.176s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf
+[4.176s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+[4.177s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
+[4.177s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[4.177s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch
+[4.179s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
+[4.179s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
+[4.181s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz
+[4.183s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
+[4.183s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[4.186s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[4.187s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[4.191s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[4.192s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[4.202s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[4.203s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[4.203s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[4.204s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[4.204s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[4.212s] -- Installing: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[4.212s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[4.212s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[4.213s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[4.213s] -- Up-to-date: /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[4.214s] Invoked command in '/home/administrator/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/administrator/arduinobot_ws/build/arduinobot_description

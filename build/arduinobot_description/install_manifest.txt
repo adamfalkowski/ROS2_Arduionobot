@@ -1,3 +1,5 @@
+/home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
+/home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
 /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/pi_camera.STL
 /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
 /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
@@ -12,9 +14,9 @@
 /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
 /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
 /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+/home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_gazebo.xacro
+/home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot_ros2_control.xacro
 /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
-/home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
-/home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
 /home/administrator/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
 /home/administrator/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
 /home/administrator/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description

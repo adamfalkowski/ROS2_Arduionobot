@@ -1,0 +1,15 @@
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+/home/administrator/arduinobot_ws/src/install/arduinobot_controller/share/arduinobot_controller/package.xml
