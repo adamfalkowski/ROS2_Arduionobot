@@ -1,0 +1,21 @@
+[1.175s] Invoking command in '/home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/build --no-deps symlink_data --force
+[1.653s] running develop
+[1.988s] running egg_info
+[2.032s] writing arduinobot_py_examples.egg-info/PKG-INFO
+[2.033s] writing dependency_links to arduinobot_py_examples.egg-info/dependency_links.txt
+[2.033s] writing entry points to arduinobot_py_examples.egg-info/entry_points.txt
+[2.033s] writing requirements to arduinobot_py_examples.egg-info/requires.txt
+[2.033s] writing top-level names to arduinobot_py_examples.egg-info/top_level.txt
+[2.092s] reading manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[2.093s] writing manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[2.143s] running build_ext
+[2.143s] Creating /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot-py-examples.egg-link (link to .)
+[2.144s] Installing simple_parameter script to /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[2.144s] Installing simple_publisher script to /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[2.145s] Installing simple_subscriber script to /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[2.145s] 
+[2.145s] Installed /home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples
+[2.145s] running symlink_data
+[2.145s] symbolically linking /home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/resource/arduinobot_py_examples -> /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[2.146s] symbolically linking /home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/package.xml -> /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples
+[2.226s] Invoked command in '/home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/build --no-deps symlink_data --force

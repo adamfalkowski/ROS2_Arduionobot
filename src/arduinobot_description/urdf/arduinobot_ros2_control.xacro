@@ -6,34 +6,11 @@
         <xacro:property name="PI" value="3.14159265359" />
 
         <!-- ros2_control Gazebo -->
-        <xacro:if value="$(arg is_sim)">
-            <!-- ROS 2 Humble -->
-            <xacro:if value="$(arg is_ignition)">
-                <hardware>
-                    <plugin>ign_ros2_control/IgnitionSystem</plugin>
-                </hardware>
-            </xacro:if>
 
-            <!-- ROS 2 Iron or above -->
-            <xacro:unless value="$(arg is_ignition)">
-                <hardware>
-                    <plugin>gz_ros2_control/GazeboSimSystem</plugin>
-                </hardware>
-            </xacro:unless>
+        <hardware>
+            <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+        </hardware>
 
-            <joint name="joint_5">
-                <param name="mimic">joint_4</param>
-                <param name="multiplier">-1</param>
-            </joint>
-        </xacro:if>
-
-        <!-- ros2_control Real Robot -->
-        <xacro:unless value="$(arg is_sim)">
-            <hardware>
-                <plugin>arduinobot_controller/ArduinobotInterface</plugin>
-                <param name="port">/dev/ttyACM0</param>
-            </hardware>
-        </xacro:unless>
 
         <joint name="joint_1">
             <command_interface name="position">
@@ -67,6 +44,10 @@
             <state_interface name="position"/>
         </joint>
 
+        <joint name="joint_5">
+            <param name="mimic">joint_4</param>
+            <param name="multiplier">-1</param>
+        </joint>
     </ros2_control>
 
 </robot>

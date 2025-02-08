@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/administrator/arduinobot_ws/src/arduinobot_controller
+CMAKE_SOURCE_DIR = /home/adam-falkowski/arduinobot_ws/src/arduinobot_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/administrator/arduinobot_ws/build/arduinobot_controller
+CMAKE_BINARY_DIR = /home/adam-falkowski/arduinobot_ws/build/arduinobot_controller
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/arduinobot_ws/build/arduinobot_controller/CMakeFiles /home/administrator/arduinobot_ws/build/arduinobot_controller//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam-falkowski/arduinobot_ws/build/arduinobot_controller/CMakeFiles /home/adam-falkowski/arduinobot_ws/build/arduinobot_controller//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/administrator/arduinobot_ws/build/arduinobot_controller/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adam-falkowski/arduinobot_ws/build/arduinobot_controller/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

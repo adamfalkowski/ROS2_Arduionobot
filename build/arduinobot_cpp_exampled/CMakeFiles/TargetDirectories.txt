@@ -1,9 +1,0 @@
-/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled/CMakeFiles/uninstall.dir
-/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled/CMakeFiles/arduinobot_cpp_exampled_uninstall.dir
-/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled/CMakeFiles/test.dir
-/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled/CMakeFiles/edit_cache.dir
-/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled/CMakeFiles/rebuild_cache.dir
-/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled/CMakeFiles/list_install_components.dir
-/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled/CMakeFiles/install.dir
-/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled/CMakeFiles/install/local.dir
-/home/administrator/arduinobot_ws/build/arduinobot_cpp_exampled/CMakeFiles/install/strip.dir

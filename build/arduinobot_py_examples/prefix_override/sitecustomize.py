@@ -1,4 +1,4 @@
 import sys
 if sys.prefix == '/usr':
     sys.real_prefix = sys.prefix
-    sys.prefix = sys.exec_prefix = '/home/administrator/arduinobot_ws/install/arduinobot_py_examples'
+    sys.prefix = sys.exec_prefix = '/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples'

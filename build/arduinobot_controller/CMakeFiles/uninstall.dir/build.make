@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/administrator/arduinobot_ws/src/arduinobot_controller
+CMAKE_SOURCE_DIR = /home/adam-falkowski/arduinobot_ws/src/arduinobot_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/administrator/arduinobot_ws/build/arduinobot_controller
+CMAKE_BINARY_DIR = /home/adam-falkowski/arduinobot_ws/build/arduinobot_controller
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/administrator/arduinobot_ws/build/arduinobot_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/administrator/arduinobot_ws/src/arduinobot_controller /home/administrator/arduinobot_ws/src/arduinobot_controller /home/administrator/arduinobot_ws/build/arduinobot_controller /home/administrator/arduinobot_ws/build/arduinobot_controller /home/administrator/arduinobot_ws/build/arduinobot_controller/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/adam-falkowski/arduinobot_ws/build/arduinobot_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam-falkowski/arduinobot_ws/src/arduinobot_controller /home/adam-falkowski/arduinobot_ws/src/arduinobot_controller /home/adam-falkowski/arduinobot_ws/build/arduinobot_controller /home/adam-falkowski/arduinobot_ws/build/arduinobot_controller /home/adam-falkowski/arduinobot_ws/build/arduinobot_controller/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 
