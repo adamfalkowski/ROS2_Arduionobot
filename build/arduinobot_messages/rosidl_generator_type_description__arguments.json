@@ -1,0 +1,13 @@
+{
+  "package_name": "arduinobot_messages",
+  "output_dir": "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_generator_type_description/arduinobot_messages",
+  "idl_tuples": [
+    "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/AddTwoInts.idl",
+    "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/EulerToQuaternion.idl",
+    "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/QuaternionToEuler.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

@@ -20,6 +20,8 @@ def generate_launch_description():
     robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")]),
                                        value_type=str)
 
+    # Publishes the state of the whole robot to the entire system
+    # It takes the joint states published by the Joint State Publisher on the /joint_states topic and uses them to compute and broadcast the transforms between the robot's links.
     robot_state_publisher_node = Node(
         package="robot_state_publisher",
         executable="robot_state_publisher",

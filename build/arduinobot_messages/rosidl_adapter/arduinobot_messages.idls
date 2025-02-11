@@ -1,0 +1,3 @@
+/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/AddTwoInts.idl
+/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/EulerToQuaternion.idl
+/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/QuaternionToEuler.idl

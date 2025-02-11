@@ -1,0 +1,22 @@
+[0.020s] Invoking command in '/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages -- -j12 -l12
+[0.049s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.305s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.305s]   By not providing "Findstd_msg.cmake" in CMAKE_MODULE_PATH this project has
+[0.305s]   asked CMake to find a package configuration file provided by "std_msg", but
+[0.306s]   CMake did not find one.
+[0.306s] 
+[0.306s]   Could not find a package configuration file provided by "std_msg" with any
+[0.306s]   of the following names:
+[0.306s] 
+[0.306s]     std_msgConfig.cmake
+[0.307s]     std_msg-config.cmake
+[0.307s] 
+[0.307s]   Add the installation prefix of "std_msg" to CMAKE_PREFIX_PATH or set
+[0.307s]   "std_msg_DIR" to a directory containing one of the above files.  If
+[0.307s]   "std_msg" provides a separate development package or SDK, be sure it has
+[0.307s]   been installed.
+[0.307s] 
+[0.308s] [0m
+[0.308s] -- Configuring incomplete, errors occurred!
+[0.308s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.315s] Invoked command in '/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages -- -j12 -l12

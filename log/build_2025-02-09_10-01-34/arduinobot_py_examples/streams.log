@@ -1,0 +1,26 @@
+[1.062s] Invoking command in '/home/adam-falkowski/arduinobot_ws/src/arduinobot_py_examples': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[1.377s] running egg_info
+[1.403s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[1.404s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[1.404s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[1.404s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[1.404s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[1.455s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.456s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.457s] running build
+[1.457s] running build_py
+[1.457s] copying arduinobot_py_examples/simple_server_service.py -> /home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.458s] running install
+[1.466s] running install_lib
+[1.494s] copying /home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_server_service.py -> /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples
+[1.495s] byte-compiling /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_server_service.py to simple_server_service.cpython-312.pyc
+[1.495s] running install_data
+[1.496s] running install_egg_info
+[1.524s] removing '/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[1.525s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info
+[1.526s] running install_scripts
+[1.699s] Installing simple_parameter script to /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.699s] Installing simple_publisher script to /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.700s] Installing simple_subscriber script to /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.700s] writing list of installed files to '/home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/install.log'
+[1.730s] Invoked command in '/home/adam-falkowski/arduinobot_ws/src/arduinobot_py_examples' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/adam-falkowski/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
