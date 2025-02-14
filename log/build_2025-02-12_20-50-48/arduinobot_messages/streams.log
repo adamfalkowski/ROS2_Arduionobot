@@ -1,0 +1,20 @@
+[0.017s] Invoking command in '/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages -- -j12 -l12
+[0.052s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.204s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.256s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.267s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.343s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.345s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.345s]   rosidl_generate_interfaces() the passed file 'action/fibonacci.action'
+[0.345s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.346s]   '/home/adam-falkowski/arduinobot_ws/src/arduinobot_messages'
+[0.346s] Call Stack (most recent call first):
+[0.346s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[0.346s] 
+[0.347s] [0m
+[0.347s] -- Configuring incomplete, errors occurred!
+[0.351s] gmake: *** [Makefile:1625: cmake_check_build_system] Error 1
+[0.353s] Invoked command in '/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages -- -j12 -l12

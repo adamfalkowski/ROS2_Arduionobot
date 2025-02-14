@@ -1,0 +1,198 @@
+[0.029s] Invoking command in '/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages -- -j12 -l12
+[0.118s] [  1%] Built target arduinobot_messages__rosidl_generator_type_description
+[0.148s] [  1%] Built target ament_cmake_python_copy_arduinobot_messages
+[0.177s] [  3%] Built target arduinobot_messages__cpp
+[0.184s] [ 24%] Built target arduinobot_messages__rosidl_generator_c
+[0.256s] [ 33%] Built target arduinobot_messages__rosidl_typesupport_cpp
+[0.260s] [ 42%] Built target arduinobot_messages__rosidl_typesupport_fastrtps_cpp
+[0.262s] [ 51%] Built target arduinobot_messages__rosidl_typesupport_introspection_c
+[0.280s] [ 61%] Built target arduinobot_messages__rosidl_typesupport_c
+[0.280s] [ 70%] Built target arduinobot_messages__rosidl_typesupport_fastrtps_c
+[0.281s] [ 79%] Built target arduinobot_messages__rosidl_typesupport_introspection_cpp
+[0.346s] [ 79%] Built target arduinobot_messages
+[0.407s] [ 81%] Built target arduinobot_messages__py
+[0.467s] [ 88%] Built target arduinobot_messages__rosidl_generator_py
+[0.519s] [ 96%] Built target arduinobot_messages_s__rosidl_typesupport_c
+[0.519s] [ 96%] Built target arduinobot_messages_s__rosidl_typesupport_fastrtps_c
+[0.519s] [100%] Built target arduinobot_messages_s__rosidl_typesupport_introspection_c
+[0.800s] running egg_info
+[0.852s] writing arduinobot_messages.egg-info/PKG-INFO
+[0.853s] writing dependency_links to arduinobot_messages.egg-info/dependency_links.txt
+[0.854s] writing top-level names to arduinobot_messages.egg-info/top_level.txt
+[1.001s] reading manifest file 'arduinobot_messages.egg-info/SOURCES.txt'
+[1.003s] writing manifest file 'arduinobot_messages.egg-info/SOURCES.txt'
+[1.082s] [100%] Built target ament_cmake_python_build_arduinobot_messages_egg
+[1.106s] Invoked command in '/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages -- -j12 -l12
+[1.108s] Invoking command in '/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages
+[1.129s] -- Install configuration: ""
+[1.130s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/ament_index/resource_index/rosidl_interfaces/arduinobot_messages
+[1.130s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/srv/AddTwoInts.json
+[1.130s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/srv/EulerToQuaternion.json
+[1.130s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/srv/QuaternionToEuler.json
+[1.131s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages
+[1.131s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv
+[1.131s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/add_two_ints.h
+[1.131s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail
+[1.132s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c
+[1.132s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__description.c
+[1.132s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.h
+[1.132s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__functions.c
+[1.133s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__functions.c
+[1.134s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__struct.h
+[1.135s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__struct.h
+[1.135s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__description.c
+[1.135s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.h
+[1.136s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__functions.h
+[1.136s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__struct.h
+[1.137s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__functions.c
+[1.137s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__functions.h
+[1.137s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c
+[1.137s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__functions.h
+[1.138s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__type_support.c
+[1.138s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__description.c
+[1.138s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__type_support.h
+[1.139s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/euler_to_quaternion.h
+[1.139s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/quaternion_to_euler.h
+[1.140s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/msg
+[1.140s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/msg/rosidl_generator_c__visibility_control.h
+[1.140s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/environment/library_path.sh
+[1.140s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/environment/library_path.dsv
+[1.141s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/libarduinobot_messages__rosidl_generator_c.so
+[1.141s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages
+[1.142s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv
+[1.142s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail
+[1.142s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[1.142s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_c.h
+[1.143s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_c.h
+[1.143s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/msg
+[1.143s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.143s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/libarduinobot_messages__rosidl_typesupport_fastrtps_c.so
+[1.143s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages
+[1.144s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv
+[1.144s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/add_two_ints.hpp
+[1.144s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail
+[1.145s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.hpp
+[1.145s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__traits.hpp
+[1.145s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__builder.hpp
+[1.145s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.hpp
+[1.146s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__traits.hpp
+[1.146s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__builder.hpp
+[1.146s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__struct.hpp
+[1.146s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__struct.hpp
+[1.146s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__type_support.hpp
+[1.146s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__builder.hpp
+[1.147s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__traits.hpp
+[1.147s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__struct.hpp
+[1.147s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/quaternion_to_euler.hpp
+[1.147s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/euler_to_quaternion.hpp
+[1.147s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/msg
+[1.147s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.147s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages
+[1.148s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv
+[1.148s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail
+[1.148s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/dds_fastrtps
+[1.148s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+[1.148s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__rosidl_typesupport_fastrtps_cpp.hpp
+[1.148s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[1.149s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/msg
+[1.149s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.149s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/libarduinobot_messages__rosidl_typesupport_fastrtps_cpp.so
+[1.149s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages
+[1.149s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv
+[1.150s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail
+[1.150s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.c
+[1.150s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_c.h
+[1.150s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[1.150s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c
+[1.151s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__type_support.c
+[1.151s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_c.h
+[1.151s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/msg
+[1.151s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.151s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/libarduinobot_messages__rosidl_typesupport_introspection_c.so
+[1.151s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/libarduinobot_messages__rosidl_typesupport_c.so
+[1.152s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages
+[1.152s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv
+[1.152s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail
+[1.153s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__rosidl_typesupport_introspection_cpp.hpp
+[1.153s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__type_support.cpp
+[1.153s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[1.153s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.cpp
+[1.153s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/euler_to_quaternion__type_support.cpp
+[1.154s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/include/arduinobot_messages/arduinobot_messages/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_cpp.hpp
+[1.154s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/libarduinobot_messages__rosidl_typesupport_introspection_cpp.so
+[1.154s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/libarduinobot_messages__rosidl_typesupport_cpp.so
+[1.154s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/environment/pythonpath.sh
+[1.155s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/environment/pythonpath.dsv
+[1.155s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages-0.0.0-py3.12.egg-info
+[1.156s] -- Installing: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages-0.0.0-py3.12.egg-info/PKG-INFO
+[1.156s] -- Installing: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.156s] -- Installing: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages-0.0.0-py3.12.egg-info/top_level.txt
+[1.156s] -- Installing: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.156s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages
+[1.157s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/srv
+[1.157s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/srv/_quaternion_to_euler.py
+[1.157s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/srv/_quaternion_to_euler_s.c
+[1.157s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/srv/__init__.py
+[1.157s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/srv/_euler_to_quaternion_s.c
+[1.157s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/srv/_add_two_ints.py
+[1.157s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/srv/_add_two_ints_s.c
+[1.158s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/srv/_euler_to_quaternion.py
+[1.158s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_c.c
+[1.158s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/arduinobot_messages_s__rosidl_typesupport_introspection_c.so
+[1.158s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_introspection_c.c
+[1.158s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.159s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/__init__.py
+[1.159s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/arduinobot_messages_s__rosidl_typesupport_c.so
+[1.159s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/arduinobot_messages_s__rosidl_typesupport_fastrtps_c.so
+[1.228s] Listing '/home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages'...
+[1.228s] Listing '/home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/srv'...
+[1.247s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/arduinobot_messages_s__rosidl_typesupport_fastrtps_c.so
+[1.248s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/arduinobot_messages_s__rosidl_typesupport_introspection_c.so
+[1.249s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages/arduinobot_messages/arduinobot_messages_s__rosidl_typesupport_c.so
+[1.250s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/libarduinobot_messages__rosidl_generator_py.so
+[1.250s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/srv/AddTwoInts.idl
+[1.250s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/srv/EulerToQuaternion.idl
+[1.252s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/srv/QuaternionToEuler.idl
+[1.252s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/srv/AddTwoInts.srv
+[1.253s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/srv/EulerToQuaternion.srv
+[1.253s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/srv/QuaternionToEuler.srv
+[1.253s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/ament_index/resource_index/package_run_dependencies/arduinobot_messages
+[1.254s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/ament_index/resource_index/parent_prefix_path/arduinobot_messages
+[1.254s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/environment/ament_prefix_path.sh
+[1.254s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/environment/ament_prefix_path.dsv
+[1.254s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/environment/path.sh
+[1.255s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/environment/path.dsv
+[1.255s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/local_setup.bash
+[1.255s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/local_setup.sh
+[1.256s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/local_setup.zsh
+[1.256s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/local_setup.dsv
+[1.257s] -- Installing: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/package.dsv
+[1.258s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/ament_index/resource_index/packages/arduinobot_messages
+[1.258s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/export_arduinobot_messages__rosidl_generator_cExport.cmake
+[1.258s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/export_arduinobot_messages__rosidl_generator_cExport-noconfig.cmake
+[1.258s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/export_arduinobot_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[1.259s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/export_arduinobot_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.259s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/export_arduinobot_messages__rosidl_generator_cppExport.cmake
+[1.259s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/export_arduinobot_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.259s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/export_arduinobot_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.259s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/arduinobot_messages__rosidl_typesupport_introspection_cExport.cmake
+[1.260s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/arduinobot_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.260s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/arduinobot_messages__rosidl_typesupport_cExport.cmake
+[1.260s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/arduinobot_messages__rosidl_typesupport_cExport-noconfig.cmake
+[1.260s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/arduinobot_messages__rosidl_typesupport_introspection_cppExport.cmake
+[1.260s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/arduinobot_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.261s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/arduinobot_messages__rosidl_typesupport_cppExport.cmake
+[1.261s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/arduinobot_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[1.262s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/export_arduinobot_messages__rosidl_generator_pyExport.cmake
+[1.262s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/export_arduinobot_messages__rosidl_generator_pyExport-noconfig.cmake
+[1.264s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/rosidl_cmake-extras.cmake
+[1.264s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.264s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.265s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[1.265s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/ament_cmake_export_targets-extras.cmake
+[1.265s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.266s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.266s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/arduinobot_messagesConfig.cmake
+[1.266s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/cmake/arduinobot_messagesConfig-version.cmake
+[1.266s] -- Up-to-date: /home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/share/arduinobot_messages/package.xml
+[1.266s] Invoked command in '/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages

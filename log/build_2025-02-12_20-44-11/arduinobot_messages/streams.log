@@ -1,0 +1,58 @@
+[0.015s] Invoking command in '/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages -- -j12 -l12
+[0.048s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.217s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.261s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.276s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.342s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.352s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.563s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[0.563s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.563s]   arduinobot_messages --arguments-file
+[0.563s]   /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter__arguments__arduinobot_messages.json
+[0.563s]   --output-dir
+[0.564s]   /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages
+[0.564s]   --output-file
+[0.564s]   /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages.idls)
+[0.564s]   returned error code 1:
+[0.564s] 
+[0.564s]   Traceback (most recent call last):
+[0.564s] 
+[0.565s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.565s]     File "<frozen runpy>", line 88, in _run_code
+[0.565s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.565s]       sys.exit(main())
+[0.565s]                ^^^^^^
+[0.565s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.565s]       abs_idl_file = convert_to_idl(
+[0.565s]                      ^^^^^^^^^^^^^^^
+[0.565s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[0.565s]       return convert_action_to_idl(
+[0.565s]              ^^^^^^^^^^^^^^^^^^^^^^
+[0.566s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[0.566s]       action = parse_action_string(package_name, input_file.stem, content)
+[0.566s]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.566s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 903, in parse_action_string
+[0.566s]       goal_message = parse_message_string(
+[0.566s]                      ^^^^^^^^^^^^^^^^^^^^^
+[0.566s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string
+[0.566s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.566s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.567s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 389, in __init__
+[0.567s]       self.base_type = BaseType(
+[0.567s]                        ^^^^^^^^^
+[0.567s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[0.567s]       raise InvalidResourceName(
+[0.567s] 
+[0.567s]   rosidl_adapter.parser.InvalidResourceName: 'fibonacci_Goal' is an invalid
+[0.567s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.567s] 
+[0.567s] Call Stack (most recent call first):
+[0.567s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.567s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[0.567s] 
+[0.567s] [0m
+[0.568s] -- Configuring incomplete, errors occurred!
+[0.572s] gmake: *** [Makefile:1355: cmake_check_build_system] Error 1
+[0.575s] Invoked command in '/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages -- -j12 -l12

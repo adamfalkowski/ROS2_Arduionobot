@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "arduinobot_messages/action/Fibonacci_Result",
+      "fields": [
+        {
+          "name": "sequence",
+          "type": {
+            "type_id": 150,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "arduinobot_messages/action/Fibonacci_Result",
+      "hash_string": "RIHS01_aed57b6a429cfd588686005db8a6ea767e45309801d7954cf78e395770de1e38"
+    }
+  ]
+}
