@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_messages/action/_arduinobot_task_s.c.o"
+  "CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_messages/action/_arduinobot_task_s.c.o.d"
   "CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_messages/action/_fibonacci_s.c.o"
   "CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_messages/action/_fibonacci_s.c.o.d"
   "CMakeFiles/arduinobot_messages__rosidl_generator_py.dir/rosidl_generator_py/arduinobot_messages/srv/_add_two_ints_s.c.o"

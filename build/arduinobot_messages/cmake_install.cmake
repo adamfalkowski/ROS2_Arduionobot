@@ -63,6 +63,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/action" TYPE FILE FILES "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_generator_type_description/arduinobot_messages/action/ArduinobotTask.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/arduinobot_messages/arduinobot_messages" TYPE DIRECTORY FILES "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_generator_c/arduinobot_messages/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -391,6 +395,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/action" TYPE FILE FILES "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages/action/ArduinobotTask.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/srv" TYPE FILE FILES "/home/adam-falkowski/arduinobot_ws/src/arduinobot_messages/srv/AddTwoInts.srv")
 endif()
 
@@ -404,6 +412,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/action" TYPE FILE FILES "/home/adam-falkowski/arduinobot_ws/src/arduinobot_messages/action/Fibonacci.action")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/arduinobot_messages/action" TYPE FILE FILES "/home/adam-falkowski/arduinobot_ws/src/arduinobot_messages/action/ArduinobotTask.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/action/detail/arduinobot_task__type_support.c.o"
+  "CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/action/detail/arduinobot_task__type_support.c.o.d"
   "CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/action/detail/fibonacci__type_support.c.o"
   "CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/action/detail/fibonacci__type_support.c.o.d"
   "CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_two_ints__type_support.c.o"
@@ -9,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/arduinobot_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/quaternion_to_euler__type_support.c.o.d"
   "libarduinobot_messages__rosidl_typesupport_introspection_c.pdb"
   "libarduinobot_messages__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/arduinobot_messages/action/detail/arduinobot_task__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/arduinobot_messages/action/detail/arduinobot_task__type_support.c"
   "rosidl_typesupport_introspection_c/arduinobot_messages/action/detail/fibonacci__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/arduinobot_messages/action/detail/fibonacci__type_support.c"
   "rosidl_typesupport_introspection_c/arduinobot_messages/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h"

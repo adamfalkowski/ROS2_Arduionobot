@@ -5,8 +5,8 @@
 #include <string.h>
 
 #include "rosidl_typesupport_interface/macros.h"
-#include "arduinobot_messages/srv/detail/quaternion_to_euler__type_support.h"
 #include "arduinobot_messages/srv/detail/quaternion_to_euler__struct.h"
+#include "arduinobot_messages/srv/detail/quaternion_to_euler__type_support.h"
 #include "arduinobot_messages/srv/detail/quaternion_to_euler__functions.h"
 
 #ifdef __cplusplus

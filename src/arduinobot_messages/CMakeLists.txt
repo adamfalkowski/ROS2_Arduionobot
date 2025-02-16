@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/EulerToQuaternion.srv"
   "srv/QuaternionToEuler.srv"
   "action/Fibonacci.action"
+  "action/ArduinobotTask.action"
 )
 
 

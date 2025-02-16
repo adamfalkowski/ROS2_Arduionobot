@@ -1,5 +1,6 @@
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/launch/moveit.launch.py
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/joint_limits.yaml
+/home/adam-falkowski/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/planning_python_api.yaml
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/moveit.rviz
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/kinematics.yaml
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/initial_positions.yaml

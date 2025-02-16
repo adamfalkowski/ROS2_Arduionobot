@@ -6,7 +6,8 @@
     "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/AddTwoInts.idl",
     "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/EulerToQuaternion.idl",
     "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/QuaternionToEuler.idl",
-    "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:action/Fibonacci.idl"
+    "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:action/Fibonacci.idl",
+    "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:action/ArduinobotTask.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -42,6 +43,7 @@
     "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages/srv/EulerToQuaternion.idl",
     "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages/srv/QuaternionToEuler.idl",
     "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages/action/Fibonacci.idl",
+    "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages/action/ArduinobotTask.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl",
@@ -55,6 +57,7 @@
     "srv/AddTwoInts.idl:/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_generator_type_description/arduinobot_messages/srv/AddTwoInts.json",
     "srv/EulerToQuaternion.idl:/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_generator_type_description/arduinobot_messages/srv/EulerToQuaternion.json",
     "srv/QuaternionToEuler.idl:/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_generator_type_description/arduinobot_messages/srv/QuaternionToEuler.json",
-    "action/Fibonacci.idl:/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_generator_type_description/arduinobot_messages/action/Fibonacci.json"
+    "action/Fibonacci.idl:/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_generator_type_description/arduinobot_messages/action/Fibonacci.json",
+    "action/ArduinobotTask.idl:/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_generator_type_description/arduinobot_messages/action/ArduinobotTask.json"
   ]
 }

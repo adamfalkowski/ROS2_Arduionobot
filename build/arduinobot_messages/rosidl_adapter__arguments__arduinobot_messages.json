@@ -4,6 +4,7 @@
     "/home/adam-falkowski/arduinobot_ws/src/arduinobot_messages:srv/AddTwoInts.srv",
     "/home/adam-falkowski/arduinobot_ws/src/arduinobot_messages:srv/EulerToQuaternion.srv",
     "/home/adam-falkowski/arduinobot_ws/src/arduinobot_messages:srv/QuaternionToEuler.srv",
-    "/home/adam-falkowski/arduinobot_ws/src/arduinobot_messages:action/Fibonacci.action"
+    "/home/adam-falkowski/arduinobot_ws/src/arduinobot_messages:action/Fibonacci.action",
+    "/home/adam-falkowski/arduinobot_ws/src/arduinobot_messages:action/ArduinobotTask.action"
   ]
 }

@@ -250,14 +250,15 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				5
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				5
+				6
 			]
 		}
 	],
@@ -281,6 +282,11 @@
 		{
 			"backtrace" : 2,
 			"path" : "action/Fibonacci.action",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "action/ArduinobotTask.action",
 			"sourceGroupIndex" : 0
 		},
 		{

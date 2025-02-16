@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/action/detail/dds_fastrtps/arduinobot_task__type_support.cpp.o"
+  "CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/action/detail/dds_fastrtps/arduinobot_task__type_support.cpp.o.d"
   "CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o"
   "CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o.d"
   "CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o"
@@ -9,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/arduinobot_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/dds_fastrtps/quaternion_to_euler__type_support.cpp.o.d"
   "libarduinobot_messages__rosidl_typesupport_fastrtps_cpp.pdb"
   "libarduinobot_messages__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/arduinobot_messages/action/detail/arduinobot_task__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/arduinobot_messages/action/detail/dds_fastrtps/arduinobot_task__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/arduinobot_messages/action/detail/dds_fastrtps/fibonacci__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/arduinobot_messages/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/arduinobot_messages/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp"

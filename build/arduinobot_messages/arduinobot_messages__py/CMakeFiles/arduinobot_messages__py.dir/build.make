@@ -73,12 +73,14 @@ include /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_
 /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_messages__py/CMakeFiles/arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion.py
 /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_messages__py/CMakeFiles/arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler.py
 /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_messages__py/CMakeFiles/arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/action/_fibonacci.py
+/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_messages__py/CMakeFiles/arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/action/_arduinobot_task.py
 /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_messages__py/CMakeFiles/arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/srv/__init__.py
 /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_messages__py/CMakeFiles/arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/action/__init__.py
 /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_messages__py/CMakeFiles/arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/srv/_add_two_ints_s.c
 /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_messages__py/CMakeFiles/arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/srv/_euler_to_quaternion_s.c
 /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_messages__py/CMakeFiles/arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c
 /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_messages__py/CMakeFiles/arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/action/_fibonacci_s.c
+/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_messages__py/CMakeFiles/arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/action/_arduinobot_task_s.c
 
 rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -97,6 +99,7 @@ rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesup
 rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/arduinobot_messages/srv/EulerToQuaternion.idl
 rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/arduinobot_messages/srv/QuaternionToEuler.idl
 rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/arduinobot_messages/action/Fibonacci.idl
+rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/arduinobot_messages/action/ArduinobotTask.idl
 rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
@@ -126,6 +129,9 @@ rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler.py: rosidl_gene
 rosidl_generator_py/arduinobot_messages/action/_fibonacci.py: rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arduinobot_messages/action/_fibonacci.py
 
+rosidl_generator_py/arduinobot_messages/action/_arduinobot_task.py: rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arduinobot_messages/action/_arduinobot_task.py
+
 rosidl_generator_py/arduinobot_messages/srv/__init__.py: rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arduinobot_messages/srv/__init__.py
 
@@ -144,11 +150,16 @@ rosidl_generator_py/arduinobot_messages/srv/_quaternion_to_euler_s.c: rosidl_gen
 rosidl_generator_py/arduinobot_messages/action/_fibonacci_s.c: rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arduinobot_messages/action/_fibonacci_s.c
 
+rosidl_generator_py/arduinobot_messages/action/_arduinobot_task_s.c: rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/arduinobot_messages/action/_arduinobot_task_s.c
+
 arduinobot_messages__py: /home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/arduinobot_messages__py/CMakeFiles/arduinobot_messages__py
 arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_c.c
 arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_fastrtps_c.c
 arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/_arduinobot_messages_s.ep.rosidl_typesupport_introspection_c.c
 arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/action/__init__.py
+arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/action/_arduinobot_task.py
+arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/action/_arduinobot_task_s.c
 arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/action/_fibonacci.py
 arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/action/_fibonacci_s.c
 arduinobot_messages__py: rosidl_generator_py/arduinobot_messages/srv/__init__.py

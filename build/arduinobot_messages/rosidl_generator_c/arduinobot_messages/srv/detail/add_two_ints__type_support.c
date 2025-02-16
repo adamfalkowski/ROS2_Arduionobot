@@ -4,10 +4,10 @@
 
 #include <string.h>
 
+#include "arduinobot_messages/srv/detail/add_two_ints__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "arduinobot_messages/srv/detail/add_two_ints__type_support.h"
 #include "arduinobot_messages/srv/detail/add_two_ints__struct.h"
-#include "arduinobot_messages/srv/detail/add_two_ints__functions.h"
 
 #ifdef __cplusplus
 extern "C"

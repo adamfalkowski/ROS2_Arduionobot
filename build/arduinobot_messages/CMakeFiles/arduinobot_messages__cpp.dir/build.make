@@ -86,6 +86,11 @@ CMakeFiles/arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/ac
 CMakeFiles/arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/fibonacci__struct.hpp
 CMakeFiles/arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/fibonacci__traits.hpp
 CMakeFiles/arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/fibonacci__type_support.hpp
+CMakeFiles/arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/arduinobot_task.hpp
+CMakeFiles/arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__builder.hpp
+CMakeFiles/arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__struct.hpp
+CMakeFiles/arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__traits.hpp
+CMakeFiles/arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__type_support.hpp
 CMakeFiles/arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp: /opt/ros/jazzy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -111,6 +116,7 @@ rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp: rosidl_adapter/ar
 rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp: rosidl_adapter/arduinobot_messages/srv/EulerToQuaternion.idl
 rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp: rosidl_adapter/arduinobot_messages/srv/QuaternionToEuler.idl
 rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp: rosidl_adapter/arduinobot_messages/action/Fibonacci.idl
+rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp: rosidl_adapter/arduinobot_messages/action/ArduinobotTask.idl
 rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
@@ -179,10 +185,30 @@ rosidl_generator_cpp/arduinobot_messages/action/detail/fibonacci__traits.hpp: ro
 rosidl_generator_cpp/arduinobot_messages/action/detail/fibonacci__type_support.hpp: rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/arduinobot_messages/action/detail/fibonacci__type_support.hpp
 
+rosidl_generator_cpp/arduinobot_messages/action/arduinobot_task.hpp: rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/arduinobot_messages/action/arduinobot_task.hpp
+
+rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__builder.hpp: rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__builder.hpp
+
+rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__struct.hpp: rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__struct.hpp
+
+rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__traits.hpp: rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__traits.hpp
+
+rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__type_support.hpp: rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__type_support.hpp
+
 rosidl_generator_cpp/arduinobot_messages/msg/rosidl_generator_cpp__visibility_control.hpp: rosidl_generator_cpp/arduinobot_messages/srv/add_two_ints.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/arduinobot_messages/msg/rosidl_generator_cpp__visibility_control.hpp
 
 arduinobot_messages__cpp: CMakeFiles/arduinobot_messages__cpp
+arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/arduinobot_task.hpp
+arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__builder.hpp
+arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__struct.hpp
+arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__traits.hpp
+arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/arduinobot_task__type_support.hpp
 arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/fibonacci__builder.hpp
 arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/fibonacci__struct.hpp
 arduinobot_messages__cpp: rosidl_generator_cpp/arduinobot_messages/action/detail/fibonacci__traits.hpp

@@ -5,7 +5,8 @@
     "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/AddTwoInts.idl",
     "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/EulerToQuaternion.idl",
     "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:srv/QuaternionToEuler.idl",
-    "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:action/Fibonacci.idl"
+    "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:action/Fibonacci.idl",
+    "/home/adam-falkowski/arduinobot_ws/build/arduinobot_messages/rosidl_adapter/arduinobot_messages:action/ArduinobotTask.idl"
   ],
   "include_paths": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs",

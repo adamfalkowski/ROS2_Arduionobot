@@ -70,6 +70,7 @@ CMakeFiles/arduinobot_messages: /home/adam-falkowski/arduinobot_ws/src/arduinobo
 CMakeFiles/arduinobot_messages: /home/adam-falkowski/arduinobot_ws/src/arduinobot_messages/srv/EulerToQuaternion.srv
 CMakeFiles/arduinobot_messages: /home/adam-falkowski/arduinobot_ws/src/arduinobot_messages/srv/QuaternionToEuler.srv
 CMakeFiles/arduinobot_messages: /home/adam-falkowski/arduinobot_ws/src/arduinobot_messages/action/Fibonacci.action
+CMakeFiles/arduinobot_messages: /home/adam-falkowski/arduinobot_ws/src/arduinobot_messages/action/ArduinobotTask.action
 CMakeFiles/arduinobot_messages: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 CMakeFiles/arduinobot_messages: /opt/ros/jazzy/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/arduinobot_messages: /opt/ros/jazzy/share/action_msgs/msg/GoalStatus.idl

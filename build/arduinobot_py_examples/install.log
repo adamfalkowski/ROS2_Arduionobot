@@ -2,6 +2,7 @@
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_action_server.py
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__init__.py
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_service_client.py
+/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_moveit_interface.py
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_parameter.py
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_action_client.py
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/simple_publisher.py
@@ -10,12 +11,14 @@
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/simple_action_server.cpython-312.pyc
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/__init__.cpython-312.pyc
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/simple_service_client.cpython-312.pyc
+/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/simple_moveit_interface.cpython-312.pyc
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/simple_parameter.cpython-312.pyc
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/simple_action_client.cpython-312.pyc
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/simple_publisher.cpython-312.pyc
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples/__pycache__/simple_service_server.cpython-312.pyc
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages/arduinobot_py_examples
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/package.xml
+/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/launch/simple_moveit_interface.launch.py
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info/PKG-INFO
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info/SOURCES.txt
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info/requires.txt
@@ -25,6 +28,7 @@
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info/dependency_links.txt
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/simple_action_client
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/simple_action_server
+/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/simple_moveit_interface
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/simple_parameter
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/simple_publisher
 /home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples/simple_service_client

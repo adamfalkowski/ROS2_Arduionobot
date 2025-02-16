@@ -1,10 +1,14 @@
 {
     "python.autoComplete.extraPaths": [
-        "/home/administrator/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages",
+        "/home/adam-falkowski/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages",
+        "/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages",
+        "/home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages",
         "/opt/ros/jazzy/lib/python3.12/site-packages"
     ],
     "python.analysis.extraPaths": [
-        "/home/administrator/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages",
+        "/home/adam-falkowski/arduinobot_ws/install/arduinobot_utils/lib/python3.12/site-packages",
+        "/home/adam-falkowski/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages",
+        "/home/adam-falkowski/arduinobot_ws/install/arduinobot_messages/lib/python3.12/site-packages",
         "/opt/ros/jazzy/lib/python3.12/site-packages"
     ],
     "ros.distro": "jazzy"
